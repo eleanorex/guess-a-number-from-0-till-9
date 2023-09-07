@@ -1,11 +1,12 @@
 body{
+    display:flex;
 	background: url(./game.gif);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
 }
-form{
+form {
 	display: flex;
 	flex-direction: column;
 	gap: 50px 0;
@@ -16,4 +17,12 @@ form{
 	height: 40%;
 	color: white;
 	font-size: 50px;
+}
+
+
+.number {
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    color: black;
 }
