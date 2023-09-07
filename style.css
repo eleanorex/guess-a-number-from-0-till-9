@@ -1,12 +1,35 @@
 body{
-    display:flex;
 	background: url(./game.gif);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	height: 100vh;
 }
-form {
+.numbers{
+	background: #9c676787;
+	border-radius: 40px;
+	display: flex;
+	gap: 30px;
+	flex-wrap: wrap;
+	width: 620px;
+}
+.number{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:rgb(229, 194, 148);
+	background: #a27070;
+	font-size: 50px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.number:hover{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+form{
 	display: flex;
 	flex-direction: column;
 	gap: 50px 0;
@@ -17,12 +40,4 @@ form {
 	height: 40%;
 	color: white;
 	font-size: 50px;
-}
-
-
-.number {
-    width: 100px;
-    height: 200px;
-    background-color: white;
-    color: black;
 }
